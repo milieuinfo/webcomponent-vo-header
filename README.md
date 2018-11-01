@@ -9,11 +9,7 @@ npm install --save vo-header
 ```
 
 ## Gebruik
-### Polymer 2
 Maak gebruik van de component in de dist folder.
-
-### Polymer 3
-Maak gebruik van de component in de root folder.
 
 ### Documentatie en demo
 
