@@ -4,9 +4,27 @@
     {
       "description": "`vo-header`\nDe standaard header voor websites en applicaties van de Vlaamse overheid",
       "summary": "",
-      "path": "vo-header.html",
+      "path": "dist/vo-header.js",
       "properties": [],
-      "methods": [],
+      "methods": [
+        {
+          "name": "render",
+          "description": "",
+          "privacy": "public",
+          "sourceRange": {
+            "start": {
+              "line": 11,
+              "column": 2
+            },
+            "end": {
+              "line": 74,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": []
+        }
+      ],
       "staticMethods": [],
       "demos": [
         {
@@ -17,12 +35,12 @@
       "metadata": {},
       "sourceRange": {
         "start": {
-          "line": 30,
-          "column": 2
+          "line": 10,
+          "column": 0
         },
         "end": {
-          "line": 32,
-          "column": 3
+          "line": 75,
+          "column": 1
         }
       },
       "privacy": "public",
