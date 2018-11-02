@@ -38,6 +38,12 @@
 					assert.equal(departementElement.textContent, 'Departement Omgeving');
 					assert.equal(departementElement.href, 'http://www.omgevingvlaanderen.be/');
 				});
+
+				test('bevat het logo van Vlaanderen', () => {
+					const element = fixture('vo-header-fixture');
+					const logo = element.shadowRoot.querySelector('vo-merklogo');
+					should.exist(logo);
+				});
 			});
 		</script>
 	</body>

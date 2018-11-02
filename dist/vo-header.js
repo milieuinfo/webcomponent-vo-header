@@ -1,4 +1,5 @@
-import { LitElement, html } from "@polymer/lit-element/lit-element";
+import { LitElement, html } from ".assets/@polymer/lit-element/lit-element.js";
+import '../vo-merklogo/dist/vo-merklogo.js';
 
 /**
  * `vo-header`
@@ -66,6 +67,7 @@ class VoHeader extends LitElement {
    			</style>
    			
     		<div id='wrapper'>
+    			<vo-merklogo></vo-merklogo>
 				<a id='vlaanderen' href='//www.vlaanderen.be' target='_self'>VLAANDEREN.be</a>
 				<div class='separator'></div>
 				<a id='departement' href='//www.omgevingvlaanderen.be' target='_self'>Departement Omgeving</a>
