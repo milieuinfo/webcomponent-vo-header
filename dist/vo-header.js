@@ -1,4 +1,4 @@
-import { LitElement, html } from ".assets/@polymer/lit-element/lit-element.js";
+import { LitElement, html } from "@polymer/lit-element/lit-element";
 import '../vo-merklogo/dist/vo-merklogo.js';
 
 /**
