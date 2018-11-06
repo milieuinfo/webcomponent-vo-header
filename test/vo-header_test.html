@@ -23,26 +23,35 @@
 			suite('vo-header', () => {
 				const should = chai.should();
 
-				test('bevat een verwijzing naar de website van Vlaanderen', () => {
+				test('bevat een verwijzing naar de website van Vlaanderen', (done) => {
 					const element = fixture('vo-header-fixture');
-					const vlaanderenElement = element.shadowRoot.querySelector('#vlaanderen');
-					should.exist(vlaanderenElement);
-					assert.equal(vlaanderenElement.textContent, 'VLAANDEREN.be');
-					assert.equal(vlaanderenElement.href, 'http://www.vlaanderen.be/');
+                    flush(() => {
+						const vlaanderenElement = element.shadowRoot.querySelector('#vlaanderen');
+						should.exist(vlaanderenElement);
+						assert.equal(vlaanderenElement.textContent, 'VLAANDEREN.be');
+						assert.equal(vlaanderenElement.href, 'http://www.vlaanderen.be/');
+  						done();
+					});
 				});
 
-				test('bevat een verwijzing naar de website van het departement', () => {
+				test('bevat een verwijzing naar de website van het departement', (done) => {
 					const element = fixture('vo-header-fixture');
-					const departementElement = element.shadowRoot.querySelector('#departement');
-					should.exist(departementElement);
-					assert.equal(departementElement.textContent, 'Departement Omgeving');
-					assert.equal(departementElement.href, 'http://www.omgevingvlaanderen.be/');
+					flush(() => {
+						const departementElement = element.shadowRoot.querySelector('#departement');
+						should.exist(departementElement);
+						assert.equal(departementElement.textContent, 'Departement Omgeving');
+						assert.equal(departementElement.href, 'http://www.omgevingvlaanderen.be/');
+ 						done();
+					});
 				});
 
-				test('bevat het logo van Vlaanderen', () => {
+				test('bevat het logo van Vlaanderen', (done) => {
 					const element = fixture('vo-header-fixture');
-					const logo = element.shadowRoot.querySelector('vo-merklogo');
-					should.exist(logo);
+                    flush(() => {
+						const logo = element.shadowRoot.querySelector('vo-merklogo');
+						should.exist(logo);
+						done();
+					});
 				});
 			});
 		</script>
