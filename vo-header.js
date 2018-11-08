@@ -1,5 +1,5 @@
-import { LitElement, html } from "./assets/@polymer/lit-element/lit-element.js";
-import './assets/vo-merklogo/dist/vo-merklogo.js';
+import { LitElement, html } from "../vodomg-litelement/@polymer/lit-element/lit-element.js";
+import '../vo-merklogo/vo-merklogo.js';
 
 /**
  * `vo-header`
