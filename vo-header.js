@@ -7,7 +7,7 @@ import '../../node_modules/vo-merklogo/vo-merklogo.js';
  *
  * @customElement
  * @polymer
- * @demo demo/index.html
+ * @demo demo/vo-header.html
  */
 class VoHeader extends LitElement {
     render() {
