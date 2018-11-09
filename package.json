@@ -50,6 +50,6 @@
     "@webcomponents/webcomponentsjs": "2.1.3",
     "polymer-cli": "^1.8.1",
     "vodomg-litelement": "milieuinfo/webcomponent-vodomg-litelement#v1.0.0",
-    "vo-merklogo": "milieuinfo/webcomponent-vo-merklogo"
+    "vo-merklogo": "milieuinfo/webcomponent-vo-merklogo#v1.0.0"
   }
 }
