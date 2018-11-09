@@ -10,7 +10,7 @@ npm install --save vo-header
 
 ### Documentatie en demo
 
-[Publicatie van documentatie en demo](https://milieuinfo.github.io/webcomponent-vo-header)
+[Publicatie van documentatie en demo](https://milieuinfo.github.io/webcomponenten-demo)
 
 ## Ontwikkelaars
 
