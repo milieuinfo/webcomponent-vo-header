@@ -49,6 +49,6 @@
   "main": "vo-header.js",
   "dependencies": {
     "vodomg-litelement": "1.0.0",
-    "vo-merklogo": "1.0.1"
+    "vo-merklogo": "1.0.2"
   }
 }
